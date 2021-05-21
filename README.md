@@ -1,7 +1,3 @@
-
-# Introduction
-
-=======
 # Introduction
 gitbook link to github
 

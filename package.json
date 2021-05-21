@@ -1,0 +1,28 @@
+{
+  "name": "books",
+  "version": "1.0.0",
+  "description": "a lib for common wiki",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CookieCoffee/books.git"
+  },
+  "author": "gongshuai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CookieCoffee/books/issues"
+  },
+  "homepage": "https://github.com/CookieCoffee/books#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "validate-commit-msg": "^2.14.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
