@@ -4,7 +4,8 @@
   "description": "a lib for common wiki",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0"
   },
   "repository": {
     "type": "git",
@@ -28,5 +29,23 @@
     "ghooks": {
       "commit-msg": "validate-commit-msg"
     }
+  },
+  "dependencies": {
+    "conventional-changelog-cli": "^2.1.1",
+    "gitbook-plugin-advanced-emoji": "^0.2.2",
+    "gitbook-plugin-back-to-top-button": "^0.1.4",
+    "gitbook-plugin-chapter-fold": "0.0.4",
+    "gitbook-plugin-code": "^0.1.0",
+    "gitbook-plugin-copy-code-button": "0.0.2",
+    "gitbook-plugin-emphasize": "^1.1.0",
+    "gitbook-plugin-expandable-chapters": "^0.2.0",
+    "gitbook-plugin-flexible-alerts": "^1.0.3",
+    "gitbook-plugin-klipse": "^1.2.0",
+    "gitbook-plugin-lightbox": "^1.2.0",
+    "gitbook-plugin-search-pro": "^2.0.2",
+    "gitbook-plugin-sharing-plus": "0.0.2",
+    "gitbook-plugin-splitter": "0.0.8",
+    "gitbook-plugin-tbfed-pagefooter": "0.0.1",
+    "gitbook-plugin-todo": "^0.1.3"
   }
 }

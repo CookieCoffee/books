@@ -1,0 +1,74 @@
+{
+    "title": "book",
+    "author" : "gingko",
+    "description" : "与工作相关",
+    "language" : "zh-hans",
+    "links" : {
+        "sidebar" : {
+            "Home" : ""
+        }
+    },
+    "plugins": [
+        "back-to-top-button",
+        "chapter-fold",
+        "expandable-chapters-small",
+        "code",
+        "copy-code-button",
+        "todo",
+        "-lunr", 
+        "-search", 
+        "search-pro",
+        "advanced-emoji",
+        "github",
+        "splitter",
+        "emphasize",
+        "-sharing", 
+        "sharing-plus",
+        "tbfed-pagefooter",
+        "popup",
+        "flexible-alerts",
+        "klipse"
+
+   ],
+   
+   "pluginsComments": {
+    "back-to-top-button": "回到顶部",
+    "chapter-fold": "左侧目录可折叠",
+    "expandable-chapters-small": "左侧章节可折叠",
+    "code": "代码复制&行号",
+    "copy-code-button": "复制按钮",
+    "todo": "待做项",
+    "-lunr": "", 
+    "-search": "", 
+    "search-pro": "支持中文搜索",
+    "advanced-emoji": "emoji表情",
+    "github": "github插件",
+    "splitter": "侧边可调节",
+    "emphasize": "文字添加底色",
+    "sharing-plus": "分享",
+    "tbfed-pagefooter": "页面添加页脚",
+    "popup": "点击查看图片",
+    "flexible-alerts": "tips",
+    "klipse": "ide编译器"
+   },
+   "pluginsConfig": {
+    "github": {
+        "url": "https://github.com/CookieCoffee"
+    },
+    "sharing": {
+        "google": true,
+        "line": true,
+        "linkedin": true,
+        "twitter": false,
+        "whatsapp": false,
+        "all": [
+            "google","linkedin","twitter", "weibo","whatsapp"
+        ]
+    },
+    "tbfed-pagefooter": {
+        "copyright":"Copyright &copy GongKo 2021",
+        "modify_label": "该文件修订时间：",
+        "modify_format": "YYYY-MM-DD HH:mm:ss"
+    }
+}
+}
