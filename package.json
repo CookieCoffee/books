@@ -19,14 +19,16 @@
   "homepage": "https://github.com/CookieCoffee/books#readme",
   "devDependencies": {
     "cz-conventional-changelog": "^3.3.0",
-    "ghooks": "^2.0.4",
+    "husky": "^6.0.0",
     "validate-commit-msg": "^2.14.0"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
-    },
-    "ghooks": {
+    }
+  },
+  "husky": {
+    "hooks": {
       "commit-msg": "validate-commit-msg"
     }
   },
