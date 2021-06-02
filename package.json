@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/CookieCoffee/books#readme",
   "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^6.0.0",
     "validate-commit-msg": "^2.14.0"
@@ -29,7 +31,7 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "validate-commit-msg"
+      "commit-msg": "commitlint -e $GIT_PARAMS"
     }
   },
   "dependencies": {
