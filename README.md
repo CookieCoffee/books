@@ -1,2 +1,2 @@
 commit -message
-npm i ghooks
+npm i ghooks -D
